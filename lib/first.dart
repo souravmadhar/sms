@@ -29,7 +29,7 @@ class _SecondScreeenState extends State<SecondScreeen> {
                 child: Text("make a phone call")),
             ElevatedButton(
                 onPressed: () {
-                  launch("tel:- +91 424535351");
+                  launch("sms:- +91 424535351");
                 },
                 child: Text("send a sms")),
             
